@@ -1,0 +1,17 @@
+#modal {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  top: 20%;
+  left: 45%;
+  height: 100%;
+  width: 100%;
+}
+
+body.loading {
+  overflow: hidden;
+}
+
+body.loading #modal {
+  display: block;
+}
